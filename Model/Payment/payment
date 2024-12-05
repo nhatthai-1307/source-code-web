@@ -1,0 +1,14 @@
+CREATE TABLE payments(  
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    order_id int,
+    total_price INT,
+    content_billing TEXT,
+    vnpay_id INT,
+    bank_id VARCHAR(255),
+    time_payment VARCHAR(255),
+    result_payment VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT FK_Payments_Order FOREIGN KEY (order_id)
+    REFERENCES orders(id)
+) COMMENT '';

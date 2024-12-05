@@ -1,0 +1,227 @@
+.container-toolbar {
+    width: 100px;
+    text-align: center;
+    height: 100vh;
+}
+.container-toolbar .toolbar {
+    background-color: #e5e5e5;
+    height: 100%;
+}
+.container-toolbar .toolbar ul {
+    margin: 0;
+    padding: 0;
+}
+.container-toolbar .toolbar ul li {
+    margin-bottom: 25px;
+}
+.container-toolbar .toolbar ul li p {
+    font-size: 15px;
+}
+
+.header-admin {
+    background-color: #e5e5e5;
+}
+.col-sm-4.logo-admin {
+    padding-left: 150px;
+}
+.col-sm-8.info-admin {
+    padding-right: 150px;
+}
+
+.container-admin {
+    display: flex;
+}
+.list-order {
+    margin-left: 20px;
+}
+.container.header-admin {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+.container-admin .add-attribute-product,.add-category {
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list-product,.show-category,.container-add-attribute-product {
+    margin-left: 20px;
+}
+thead tr th {
+    text-align: center;
+}
+tbody tr td {
+    text-align: center;
+}
+.container-add-attribute-product h4 {
+    border-bottom: 1px solid #cecece;
+    margin-top: 40px;
+}
+.container-add-attribute-product h2 {
+    margin-bottom: 20px;
+}
+.select-attribute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select-attribute select {
+    width: 80%;
+}
+.select-attribute a {
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+.add-base-value,.add-attr-value,.table-new-attr {
+    width: 80%;
+}
+.input-from {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input-from label {
+    text-align: start;
+    width: 30%;
+}
+.input-from input {
+    width: 70%;
+    height: 35px;
+}
+.lable-input{
+    width: 30%;
+    font-weight: bold;
+}
+.table-new-attr table {
+    width: 100%;
+}
+.table-new-attr table input{
+    margin-top: 15px;
+}
+.submit-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-add h2 {
+    width: 80%;
+    text-align: start;
+}
+.submit-add .add{
+    width: 20%;
+}
+.submit-add .add input{
+    width: 200px;
+    text-align: center;
+    background: #428bca;
+    font-weight: 600;
+}
+.submit-add .add input:hover{
+    background: #fdb45e;
+}
+.container-add-category,.container-edit-product {
+    margin-left: 20px;
+}
+.input-category {
+    width: 80%;
+    margin-right: 100px;
+}
+.input-category .input-from {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input-category .input-from label {
+    text-align: start;
+    width: 20%;
+}
+.input-category .input-from input {
+    width: 80%;
+    height: 35px;
+}
+.info-product, .edit-categroy-form {
+    width: 80%;
+}
+h4 {
+    border-bottom: 1px solid #cecece;
+    margin-top: 40px;
+}
+section::-webkit-scrollbar {
+    display: none;
+}
+
+section {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.container-edit-category,.container-detail {
+    margin-left: 20px;
+}
+.information {
+    display: flex;
+}
+.order-information,.customer-information {
+    width: 50%;
+    padding: 10px;
+}
+
+.order-information table {
+    width: 100%;
+}
+.order-information table tr{
+    height: 30px;
+}
+.order-information table td{
+    text-align: start;
+}
+.customer-information table {
+    width: 100%;
+}
+.customer-information table tr{
+    height: 30px;
+}
+.customer-information table td{
+    text-align: start;
+}
+
+.table-product table {
+    width: 100%;
+}
+.table-product table{
+    border-top: 3px solid #ffff;
+}
+.table-product table tr th{
+    text-align: center;
+}
+.table-product table tr td{
+    text-align: center;
+}
+.order-detail-submit {
+    width: 40%;
+}
+.order-detail-submit .update-status-form .form-submit-head{
+    width: 100%;
+    display: flex;
+}
+.order-detail-submit .update-status-form .form-submit-head input{
+    width: 50%;
+    margin-right: 20px;
+    text-align: center;
+    background: #428bca;
+    font-weight: 600;
+}
+.order-detail-submit .update-status-form .form-submit-head input:hover {
+    background: #fdb45e;
+}
+.container-detail .submit-add {
+    width: 100%;
+    display: flex;
+}
+.container-detail .submit-add h2 {
+    width: 60%;
+}

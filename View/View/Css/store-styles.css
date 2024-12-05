@@ -1,0 +1,64 @@
+.container-my-account {
+    display: flex;
+}
+
+.container-my-account form {
+    width: 50%;
+}
+
+.form-customer input{
+    font-weight: 300;
+}
+
+.container-my-account form .form-customer h2 {
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.container-my-account form .form-customer .input-customer {
+    display: flex;
+    align-items: center;
+}
+
+.container-my-account form .form-customer .input-avatar-customer label{
+    font-weight: 300;
+}
+
+.container-my-account form .form-customer .input-customer label {
+    width: 30%;
+    font-weight: 300;
+}
+
+.container-my-account form .form-customer .input-customer input {
+    width: 50%;
+    background: #F0F0E9;
+    border: medium none;
+    color: #696763;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+}
+
+.container-order-account table{
+    font-weight: 300;
+}
+
+.container-order-account h2 {
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.container-order-account .head-table-order {
+    font-weight: 300;
+}

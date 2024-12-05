@@ -1,0 +1,25 @@
+CREATE TABLE carts(  
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    customer_id INT,
+    is_active INT,
+    total_price INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT FK_Customer_Cart FOREIGN KEY (customer_id)
+    REFERENCES customers(id)
+) COMMENT '';
+
+CREATE TABLE cart_item(  
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    cart_id INT,
+    product_entity_id INT,
+    qty INT,
+    base_price INT,
+    total_price INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT FK_Cart_Cart_item FOREIGN KEY (cart_id)
+    REFERENCES carts(id),
+    CONSTRAINT FK_Product_Entity_Cart_item FOREIGN KEY (product_entity_id)
+    REFERENCES product_entity(id)
+) COMMENT '';

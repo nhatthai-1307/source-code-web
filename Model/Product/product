@@ -1,0 +1,35 @@
+
+CREATE TABLE product_entity(  
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    category_id INT,
+    name VARCHAR(255),
+    decription TEXT,
+    price INT,
+    qty INT,
+    image TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT FK_Category_Product_entity FOREIGN KEY (category_id)
+    REFERENCES categories(id)
+) COMMENT '';
+
+CREATE TABLE product_attribute(  
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    name VARCHAR(255),
+    title VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) COMMENT '';
+
+CREATE TABLE product_value(  
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    product_entity_id INT,
+    product_attribute_id INT,
+    value VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT FK_Product_Entity_Product_Value FOREIGN KEY (product_entity_id)
+    REFERENCES product_entity(id),
+    CONSTRAINT FK_Product_Attribute_Product_Value FOREIGN KEY (product_attribute_id)
+    REFERENCES product_attribute(id)
+) COMMENT '';

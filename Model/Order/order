@@ -1,0 +1,30 @@
+CREATE TABLE orders(  
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    customer_id INT,
+    cart_id INT,
+    status VARCHAR(255),
+    shipping_address TEXT,
+    comment TEXT,
+    total_price INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT FK_Customer_Order FOREIGN KEY (customer_id)
+    REFERENCES customers(id),
+    CONSTRAINT FK_Cart_Order FOREIGN KEY (cart_id)
+    REFERENCES carts(id)
+) COMMENT '';
+
+CREATE TABLE order_item(  
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    order_id INT,
+    product_entity_id INT,
+    qty INT,
+    base_price INT,
+    total_price INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT FK_Order_Order_item FOREIGN KEY (order_id)
+    REFERENCES orders(id),
+    CONSTRAINT FK_Product_Entity_Order_item FOREIGN KEY (product_entity_id)
+    REFERENCES product_entity(id)
+) COMMENT '';
