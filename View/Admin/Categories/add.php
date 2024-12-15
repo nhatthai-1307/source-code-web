@@ -17,7 +17,7 @@ if (empty($_SESSION['adminId'])) {
 
 <body>
     <?php include '../header.php'; ?>
-    <div class="container-admin">
+    <div class="container-admin">       
         <?php include '../ToolBar.php'; ?>
         <section style="width: 100%;height: 100vh;overflow-y: scroll;">
             <form action="/source-code-web/Controller/Admin/Category.php" method="post">

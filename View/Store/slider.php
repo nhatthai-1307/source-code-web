@@ -19,7 +19,7 @@
 							<div class="col-sm-6">
 								<h1><span>DM</span>-STORE</h1>
 								<h2>Black Jeans with White Shoes</h2>
-								<p>Designed and provided to the community by TheBestKing the creator of Fresh Era Clothing. Stay fresh and be sure to check out other items made by TheBestKing in the catalog. </p>
+								<p>Được thiết kế và cung cấp cho cộng đồng bởi TheBestKing, người sáng tạo ra Fresh Era Clothing. Hãy luôn tươi mới và đừng quên xem các mặt hàng khác do TheBestKing sản xuất trong danh mục.</p>
 							</div>
 							<div class="col-sm-6">
 								<img src="https://tr.rbxcdn.com/180DAY-867e46408bf8a81dbf4918d4f3d8c355/420/420/Pants/Webp/noFilter" class="girl img-responsive" alt="" />

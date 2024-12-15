@@ -19,11 +19,11 @@ $customers = new Customer();
 $mail = new PHPMailer(true);
 $mail->isSMTP();
 $mail->SMTPAuth = true;
-$mail->Host = "smtp-relay.sendinblue.com";
+$mail->Host = "smtp-relay.brevo.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
-$mail->Username = "thanh.vinh@hotmail.com";
-$mail->Password = "xfgO5mNqkEp6cFrw";
+$mail->Username = "severvdt@gmail.com";
+$mail->Password = "2b1Fpfarw6YsvDqJ";
 
 if (!empty($_SESSION['userId'])) {
     $custoemr = $customers->getCustomerById($_SESSION['userId']);
