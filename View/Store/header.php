@@ -42,7 +42,7 @@ $customer = new Customer();
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
 								<li><a href=""><i class="fa fa-phone"></i> +84 348 732 716</a></li>
-								<li><a href=""><i class="fa fa-envelope"></i> nhatthai9764@gmail.com</a></li>
+								<li><a href=""><i class="fa fa-envelope"></i> nhatthai130705@gmail.com</a></li>
 							</ul>
 						</div>
 					</div>

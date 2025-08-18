@@ -104,7 +104,7 @@ if (!empty($_POST['signup'])) {
                                 Please notify you have successfully registered DM Store account. Please click the following link to activate your account !
                                 http://localhost/source-code-web/Controller/Store/Login.php?confirm=' . $stringConfirm . '
                                 *If you do not submit this request, please contact us immediately!*
-                                Hotline: 0962339978
+                                Hotline: 0348732716
                                 Regards,
                                 *Please do not reply to this email*';
             $mail->send();

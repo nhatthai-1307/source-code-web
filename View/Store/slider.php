@@ -17,7 +17,7 @@
 					<div class="carousel-inner">
 						<div class="item active">
 							<div class="col-sm-6">
-								<h1><span>DM</span>-STORE</h1>
+								<h1><span>THAI</span>-STORE</h1>
 								<h2>Black Jeans with White Shoes</h2>
 								<p>Được thiết kế và cung cấp cho cộng đồng bởi TheBestKing, người sáng tạo ra Fresh Era Clothing. Hãy luôn tươi mới và đừng quên xem các mặt hàng khác do TheBestKing sản xuất trong danh mục.</p>
 							</div>
@@ -27,7 +27,7 @@
 						</div>
 						<div class="item">
 							<div class="col-sm-6">
-								<h1><span>DM</span>-STORE</h1>
+								<h1><span>THAI</span>-STORE</h1>
 								<h2>Down to Earth Hair</h2>
 								<p>Your thoughts are as down to earth as your hair!</p>
 							</div>
@@ -38,12 +38,12 @@
 
 						<div class="item">
 							<div class="col-sm-6">
-								<h1><span>DM</span>-STORE</h1>
+								<h1><span>THAI</span>-STORE</h1>
 								<h2>Knights of Redcliff: Paladin - Face</h2>
 								<p> </p>
 							</div>
 							<div class="col-sm-6">
-								<img src="https://tr.rbxcdn.com/180DAY-fbd17ba3a1fadca5d5cd7fa2110c7388/420/420/Face/Webp/noFilter" class="girl img-responsive" alt="" />
+								<img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/v/i/vivo-v50-lite-5g.1.png" class="girl img-responsive" alt="" />
 							</div>
 						</div>
 

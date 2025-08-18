@@ -44,7 +44,6 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `first_name`, `last_name`, `phone`, `avatar`, `email`, `password`, `created_at`, `updated_at`) VALUES
-(1, 'Vo Dinh', 'Tu', '0962339978', NULL, 'vodinhtu28@gmail.com', '242974906Tu', '2022-11-27 05:29:57', '2022-11-27 12:29:57');
 
 -- --------------------------------------------------------
 
@@ -220,15 +219,6 @@ CREATE TABLE `product_entity` (
 --
 
 INSERT INTO `product_entity` (`id`, `category_id`, `name`, `decription`, `price`, `qty`, `image`, `created_at`, `updated_at`) VALUES
-(20, 1, 'Black Jeans with White Shoes', 'Designed and provided to the community by TheBestKing the creator of Fresh Era Clothing. Stay fresh and be sure to check out other items made by TheBestKing in the catalog.', 0, 1000, 'upload/product/1.webp', '2024-12-04 15:14:22', '2024-12-04 22:14:22'),
-(21, 1, 'ROBLOX Jacket', 'Stay stylish in the latest ROBLOX jacket.', 0, 1000, 'upload/product/2.webp', '2024-12-04 15:16:42', '2024-12-04 22:16:42'),
-(22, 1, 'Wolf & Moon', 'from Wolf is Rain', 0, 1000, 'upload/product/3.webp', '2024-12-04 15:18:24', '2024-12-04 22:18:24'),
-(23, 1, 'Roblox Sneakers - Gray', ' Style it up in signature black.', 0, 1000, 'upload/product/4.webp', '2024-12-04 15:19:16', '2024-12-04 22:19:16'),
-(24, 2, 'Warm Pretzel Back Snacker', 'Gluten-free option in the works. * now on offer until October 15 *', 0, 1000, 'upload/product/5.webp', '2024-12-04 15:20:20', '2024-12-04 22:20:20'),
-(25, 2, 'Roblox Baseball Cap', 'Powering Imagination!', 0, 1000, 'upload/product/6.webp', '2024-12-04 15:21:06', '2024-12-04 22:23:46'),
-(26, 2, 'User Ads Backstage Pass', 'User Ads VIP for life', 0, 1000, 'upload/product/7.webp', '2024-12-04 15:22:29', '2024-12-04 22:24:05'),
-(27, 2, 'Living Art User Ads', ' A true breakthrough in advertising technology', 0, 1000, 'upload/product/8.webp', '2024-12-04 15:23:11', '2024-12-04 22:24:13'),
-(28, 3, 'Orange Beanie with Black Hair', ' She does not need a reason to love the Halloween season.', 0, 1000, 'upload/product/9.webp', '2024-12-04 15:25:17', '2024-12-04 22:25:17');
 
 -- --------------------------------------------------------
 

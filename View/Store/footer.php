@@ -9,7 +9,7 @@
 			<div class="row">
 				<div class="col-sm-2">
 					<div class="companyinfo">
-						<h2><span>DM</span>-Store</h2>
+						<h2><span>THAI</span>-Store</h2>
 						<p>Bring products to everyone the fastest</p>
 					</div>
 				</div>
@@ -24,7 +24,7 @@
 									<i class="fa fa-play-circle-o"></i>
 								</div>
 							</a>
-							<p>Roblox</p>
+							<p>Thai Store</p>
 							<h2>09 DEC 2024</h2>
 						</div>
 					</div>
@@ -39,7 +39,7 @@
 									<i class="fa fa-play-circle-o"></i>
 								</div>
 							</a>
-							<p>Roblox</p>
+							<p>Thai Store</p>
 							<h2>09 DEC 2024</h2>
 						</div>
 					</div>
@@ -54,7 +54,7 @@
 									<i class="fa fa-play-circle-o"></i>
 								</div>
 							</a>
-							<p>Roblox</p>
+							<p>Thai Store</p>
 							<h2>09 DEC 2024</h2>
 						</div>
 					</div>
@@ -69,7 +69,7 @@
 									<i class="fa fa-play-circle-o"></i>
 								</div>
 							</a>
-							<p>Roblox</p>
+							<p>Thai Store</p>
 							<h2>09 DEC 2024</h2>
 						</div>
 					</div>
