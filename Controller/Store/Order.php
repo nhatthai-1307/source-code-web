@@ -56,10 +56,10 @@ if (!empty($_SESSION['userId'])) {
                         $mail->addAddress($custoemr['email'], $custoemr['first_name'] . ' ' . $custoemr['last_name']);
                         $mail->Subject = 'Order Success';
                         $mail->Body    = 'Welcome,
-                                            You have successfully placed an order on DM Store with Order ID: ' . $orderId . '.
+                                            You have successfully placed an order on Thai Store with Order ID: ' . $orderId . '.
                                             Thank you for trusting us.
                                             *If you do not submit this request, please contact us immediately!*
-                                            Hotline: 0962339978
+                                            Hotline: 0348732716 
                                             Regards,
                                             *Please do not reply to this email*';
                         $mail->send();

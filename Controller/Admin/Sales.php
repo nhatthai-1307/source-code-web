@@ -87,7 +87,7 @@ if (!empty($_POST['update_accepted'])) {
     $customerId = $order->getOrderById($_POST['order_id'])['customer_id'];
     $custoemr = $customers->getCustomerById($customerId);
 
-    $mail->setFrom("localhost@gmail.com", "DM Store");
+    $mail->setFrom("localhost@gmail.com", "Thai Store");
     $mail->addAddress($custoemr['email'], $custoemr['first_name'].' '.$custoemr['last_name']);
     $mail->Subject = 'Order Completed';
     $mail->Body    = 'Welcome,

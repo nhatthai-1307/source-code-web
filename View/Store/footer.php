@@ -18,7 +18,7 @@
 						<div class="video-gallery text-center">
 							<a href="#">
 								<div class="iframe-img">
-									<img src="/source-code-web/View/View/images/home/logo_roblox.png" alt="" />
+									<img src="https://tse4.mm.bing.net/th/id/OIP.wg1gjYITDVgM5InhZNa4iwHaEJ?pid=Api&P=0&h=220" alt="" />
 								</div>
 								<div class="overlay-icon">
 									<i class="fa fa-play-circle-o"></i>
@@ -33,7 +33,7 @@
 						<div class="video-gallery text-center">
 							<a href="#">
 								<div class="iframe-img">
-									<img src="/source-code-web/View/View/images/home/logo_roblox.png" alt="" />
+									<img src="https://tse3.mm.bing.net/th/id/OIP.T24gG_fvdb5JgzjBO8n7NQHaE8?pid=Api&P=0&h=220" alt="" />
 								</div>
 								<div class="overlay-icon">
 									<i class="fa fa-play-circle-o"></i>
@@ -48,7 +48,7 @@
 						<div class="video-gallery text-center">
 							<a href="#">
 								<div class="iframe-img">
-									<img src="/source-code-web/View/View/images/home/logo_roblox.png" alt="" />
+									<img src="https://tse4.mm.bing.net/th/id/OIP.O36ay5eu2FLRiv-daplA8wHaEK?pid=Api&P=0&h=220" alt="" />
 								</div>
 								<div class="overlay-icon">
 									<i class="fa fa-play-circle-o"></i>
@@ -63,7 +63,7 @@
 						<div class="video-gallery text-center">
 							<a href="#">
 								<div class="iframe-img">
-									<img src="/source-code-web/View/View/images/home/logo_roblox.png" alt="" />
+									<img src="https://tse4.mm.bing.net/th/id/OIP.8OKH_gnLb8jFsfUmVkj76QHaE1?pid=Api&P=0&h=220" alt="" />
 								</div>
 								<div class="overlay-icon">
 									<i class="fa fa-play-circle-o"></i>

@@ -54,7 +54,7 @@ if (!empty($_POST['add_to_cart'])) {
                 'item_base_price' => $product['price'],
                 'item_qty' => 1
             ];
-            $_SESSION['cart'] = array();
+            $_SESSION['cart'] = array();    
             $_SESSION['cart'][0] = $array_item;
             header('Location: ../../View/Store/Carts/cart.php');
             die();
